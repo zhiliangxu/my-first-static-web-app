@@ -1,0 +1,31 @@
+{
+  "routes": [
+    {
+      "route": "/api/message",
+      "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/login",
+      "serve": "/.auth/login/github"
+    },
+    {
+      "route": "/.auth/login/twitter",
+      "statusCode": "404"
+    },
+    {
+      "route": "/logout",
+      "serve": "/.auth/logout"
+    }
+  ],
+  "platformErrorOverrides": [
+    {
+      "errorType": "NotFound",
+      "serve": "/custom-404.html"
+    },
+    {
+      "errorType": "Unauthenticated",
+      "statusCode": "302",
+      "serve": "/login"
+    }
+  ]
+}
