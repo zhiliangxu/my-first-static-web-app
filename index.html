@@ -11,13 +11,19 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
-    <p>Loading content from the API: <b id="name">...</b></p>
+	<p>Welcome, </<b id="user">...</b>p>
+    <p>Loading content from the API: <b id="msg">...</b></p>
   </main>
 
   <script>
-    (async function() {
-      let { text } = await( await fetch(`/api/message`)).json();
-      document.querySelector('#name').textContent = text;
+	(async function() {
+	  const response = await fetch("/.auth/me");
+      const { clientPrincipal } = await response.json();
+      document.querySelector('#user').textContent = clientPrincipal.userDetails;
+	}())
+	(async function() {
+      let { text } = await (await fetch(`/api/message`)).json();
+      document.querySelector('#msg').textContent = text;
     }())
   </script>
 </body>
