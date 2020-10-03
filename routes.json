@@ -1,7 +1,8 @@
 {
   "routes": [
     {
-      "route": "/api/message",
+      "route": "/confidential/*",
+	  "serve": "/confidential.html"
       "allowedRoles": ["administrator"]
     },
     {
