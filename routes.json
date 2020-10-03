@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/confidential/*",
-	  "serve": "/confidential.html"
+	  "serve": "/confidential.html",
       "allowedRoles": ["administrator"]
     },
     {
