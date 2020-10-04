@@ -11,7 +11,8 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
-	<p>Welcome, <b id="user">...</b></p>
+	<p id="welcome" style="display: none">Welcome, <b id="user">...</b></p>
+	<p id="login" style="display: none"><a href="/login">Login</a></p>
     <p>Loading content from the API: <b id="msg">...</b></p>
   </main>
 
@@ -19,12 +20,20 @@
 	(async function() {
 	  const response = await fetch("/.auth/me");
       const { clientPrincipal } = await response.json();
-      document.querySelector('#user').textContent = clientPrincipal.userDetails;
-	}())
+	  if (clientPrincipal == null) {
+		document.querySelector('#login').style.display = "block";
+	  }
+	  else
+	  {
+        document.querySelector('#user').textContent = clientPrincipal.userDetails;
+		document.querySelector('#welcome').style.display = "block";
+	  }
+	}());
+
 	(async function() {
       let { text } = await (await fetch(`/api/message`)).json();
       document.querySelector('#msg').textContent = text;
-    }())
+    }());
   </script>
 </body>
 
