@@ -1,0 +1,170 @@
+/* --------- CRMS ----------- */
+/* These styles target Apple devices only, and reverse/overide the ADE styles at the bottom of content.css */
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+span.subtype {
+  float: right;
+  font-size: .7em;
+  margin-left: 0;
+}
+
+a span.link_map {
+  padding: 2px 5px;
+  -webkit-text-fill-color: #FFFFFF;
+}
+
+/* -webkit-text-fill-color ensures map links are white on ipad */
+/* Unsupported Script */
+.script.burmese {
+  display: none;
+}
+
+.script.ethiopic {
+  display: none;
+}
+
+.script.khmer {
+  display: none;
+}
+
+.script {
+  display: inline;
+  padding: 0;
+}
+
+.walking-tour .font-icon,
+.font-icon {
+  font-family: LPIcons2012;
+  display: inline-block;
+  background: none !important;
+  padding: 0;
+}
+
+.prac-icon {
+  display: none;
+}
+
+/* hide the inline image for iPad and KF8 */
+.font-prac-icon {
+  display: inline;
+}
+
+/* Show embedded font icon for iPad and KF8 */
+.icon-top-choice .font-prac-icon {
+  color: #005DA6;
+  margin-right: 3px;
+}
+
+/* Map Key icons */
+p.top-sights .disc-icons,
+p.sights .disc-icons {
+  display: inline;
+}
+
+p.information .disc-icons {
+  display: inline;
+}
+
+.map-keys p.top-sights,
+.map-keys p.sights,
+.map-keys p.sleeping,
+.map-keys p.eating,
+.map-keys p.drinking,
+.map-keys p.drinking-nightlife,
+.map-keys p.shopping,
+.map-keys p.entertainment,
+.map-keys p.activities-courses-tours,
+.map-keys p.information,
+.map-keys p.sporting-activities,
+.map-keys p.transport {
+  background: none;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.map-keys .map-keys-poi span.ref {
+  float: right;
+}
+
+.disc-icons {
+  display: inline;
+  /* Show embedded map font icon for iPad and KF8 */
+  font-family: LPDiscIcons;
+  font-weight: normal;
+  margin-right: .2em;
+  color: #139CD8;
+  font-size: .9em;
+}
+
+.month-by-month .activities h3,
+.month-by-month .tours h3,
+.month-by-month .beach h3,
+.month-by-month .courses h3,
+.month-by-month .drinking h3,
+.month-by-month .entertainment h3,
+.month-by-month .eating h3,
+.month-by-month .festivals h3,
+.month-by-month .shopping h3,
+.month-by-month .sights h3,
+.month-by-month .sleeping h3,
+.month-by-month .information h3 {
+  background: none;
+  text-indent: 0;
+  padding: 12px 0 0 0;
+}
+
+.bullet_arrow {
+  display: inline;
+}
+
+.info-list-a,
+.numbered-list,
+.box-list-b,
+.module-2 .list-b,
+.daily-costs .list-b,
+.first-time .list-b,
+.first-time .module1 .list-b,
+.list-b {
+  background: none !important;
+  padding-left: 0;
+}
+
+/* remove red arrow icon for iPad and KF8 */
+.activities .genre-heading-1 {
+  background: none;
+  padding-left: 0;
+}
+
+.drinking .genre-heading-1 {
+  background: none;
+  padding-left: 0;
+}
+
+p.genre-heading-1,
+p.info-heading-1 {
+  margin-left: 0em;
+  font-weight: bold;
+  padding-left: 0;
+  background: none !important;
+  text-indent: 0;
+}
+
+/* Genre heading icons */
+p.genre-heading-1, p.info-heading-1 {
+  padding-left: 0;
+  background: none;
+}
+
+p.info-heading-1 .font-icon {
+  color: #6D6F71;
+}
+
+.font-icon {
+  display: inline;
+  font-size: 150%;
+  color: #e42118;
+  margin: .15em .15em 0em 0;
+}

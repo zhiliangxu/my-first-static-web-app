@@ -1,0 +1,276 @@
+/* --------- CRMS ----------- */
+h1 {
+  font-family: LPMillerBold, Georgia, serif;
+  font-size: 3em;
+  font-weight: normal;
+  color: #53853c;
+  margin: 0 0 .4em 0;
+}
+
+/*h2 { margin-bottom:0; font-weight:normal; color:#53853c; font-family: LPMillerBold, Georgia, Times, serif; font-size:1.3em; }*/
+h2 {
+  margin-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+h3 {
+  color: #53853c;
+  font-size: 1.3em;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-weight: normal;
+  margin: 1em 0 .2em 0;
+}
+
+h4, .heading-4 {
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 1em 0 .2em 0;
+  font-weight: bold;
+}
+
+.genre-heading-2 {
+  margin-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* Title page */
+.understand.title-page .heading {
+  background-color: #53853c;
+  border-radius: 10px 0 0 10px;
+  padding: 1.3em 1em;
+  margin-bottom: 2em;
+}
+
+.understand.title-page h1 {
+  margin: 0;
+  text-align: right;
+  padding-right: .6em;
+  color: #fff;
+}
+
+.understand.title-page .genre-heading-1 {
+  text-transform: uppercase;
+  margin: 1em 0 0 0;
+  color: #53853c;
+  font-family: LPBentonSansCondBold, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  padding: 0;
+}
+
+.title-page p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 'Today' */
+.introduction p {
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 140% !important;
+  margin-bottom: .5em;
+}
+
+div.stats {
+  margin: .5em 0 1em 0;
+  border-top: 12px solid #53853c;
+  padding-top: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+div.stats div {
+  display: inline;
+}
+
+p.stats {
+  font-size: .9em;
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  margin-bottom: .4em;
+  color: #53853c;
+  text-transform: uppercase;
+}
+
+.stats h3 {
+  font-size: 1em;
+}
+
+.today .context-eps {
+  width: 48%;
+  float: left;
+  margin-right: 2px;
+  display: inline;
+}
+
+.country-today-snippets {
+  background-color: #eee8d7;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1em;
+  page-break-inside: avoid;
+}
+
+.country-today-snippets p {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  font-size: .9em;
+}
+
+.country-today-snippets .heading-4 {
+  margin: .8em 0 .2em 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.country-today-snippets div:first-child .heading-4 {
+  margin-top: 0;
+}
+
+/* 'History */
+div.timeline {
+  background-color: #D6E7B8;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+h4.timeline {
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-weight: normal;
+  font-size: 1.4em;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0 0 .4em 0;
+}
+
+.timeline-date,
+.timeline-date-history {
+  color: #53853C;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  margin: .8em 0 0 0;
+  font-size: 1.2em;
+  border-top: 2px dotted #53853C;
+  font-weight: normal;
+}
+
+.timeline-entry {
+  background-color: #D6E7B8;
+  color: #000000;
+  font: .9em LPBentonSansCond, Helvetica, Arial, sans-serif;
+}
+
+div.sidebar, div.sidebar-with-heading {
+  page-break-inside: avoid;
+  margin: 20px 0px;
+  border-top: 3px solid #D6E7B8;
+  border-bottom: 3px solid #D6E7B8;
+  padding: .4em .3em .5em .3em;
+}
+
+.sidebar p, .sidebar-with-heading p {
+  font: .9em Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  color: #427421;
+}
+
+.timeline-date:first-of-type,
+.timeline-date-history:first-of-type {
+  margin-top: 0;
+}
+
+.understand .context-table-box .box-heading-1,
+.understand .box-heading-1-table {
+  border-bottom: 2px dotted #E8181C;
+  border-top: 2px dotted #E8181C;
+  margin: 15px 0 0;
+  padding-top: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  color: #E42118;
+  font-weight: bold;
+}
+
+/* Vertical Timeline */
+.section-understand-theme .timeline-date {
+  background-color: #D6E7B8;
+  color: #000;
+  font-weight: normal;
+  margin: .5em 0 0 0;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  border-top: 6px solid #427421;
+  padding-top: .3em;
+}
+
+.section-understand-theme .timeline-entry {
+  background-color: #D6E7B8;
+  color: #000;
+  font: .9em LPBentonSansCond, sans-serif;
+}
+
+.info-heading-1-vertical-timeline {
+  color: #000;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-size: 1.3em;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+}
+
+/* Theme */
+.theme h2 {
+  margin-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #000;
+}
+
+/* History */
+/* Sidebar */
+.understand .sidebar-heading {
+  font: bold 1.3em Georgia, Times, serif;
+  margin: 0;
+  text-transform: none;
+  color: #427421;
+  border: none;
+  text-align: center;
+}
+
+.understand .sidebar-list {
+  border-top: 2px dotted #8A8D8E;
+  padding-top: .5em;
+  font: italic .9em Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.understand .sidebar-list em {
+  display: block;
+  text-align: center;
+}
+
+.understand .sidebar-list span {
+  text-align: center;
+}
+
+.understand .context-sidebar {
+  page-break-inside: avoid;
+  margin: 20px 0px;
+  border-top: 3px solid #D6E7B8;
+  border-bottom: 3px solid #D6E7B8;
+  padding: .4em .3em .5em .3em;
+}
+
+.understand .context-sidebar p {
+  font: .9em Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  color: #427421;
+}
+
+.context-sidebar-with-heading + .heading-3 + .context-boxed-text-2-col {
+  clear: none;
+}

@@ -1,0 +1,699 @@
+/* --------- CRMS ----------- */
+/* headings */
+h1 {
+  font-family: LPMillerBold, Georgia, serif;
+  font-size: 3em;
+  font-weight: normal;
+  color: #000;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 1em 0 .2em 0;
+  clear: both;
+  text-transform: uppercase;
+  color: #00AEEF;
+}
+
+h3 {
+  font-family: LPMillerBold, Georgia, serif !important;
+  font-weight: normal;
+  color: #005da8;
+  border-top: .35em solid #00aeef;
+  padding-top: .3em;
+  font-size: 1.4em;
+  margin: 1em 0 .3em 0;
+}
+
+h4 {
+  color: #005da8;
+  border-top: 3px solid #00aeef;
+  padding-top: .3em;
+  font-size: 1.1em;
+  margin: 1em 0 .4em 0;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 1.2em 0 .8em;
+  color: #0066b3;
+}
+
+/* Table of Contents */
+.toc-heading-4 {
+  margin-top: 0em !important;
+  margin-bottom: 0.6em !important;
+  border: none;
+  padding: 0;
+  font-weight: normal;
+}
+
+.toc-heading-4 a {
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #222 !important;
+  -webkit-text-fill-color: #222;
+  margin-left: 0 !important;
+}
+
+.book-section-toc {
+  background-color: #eee8d7;
+  padding: 1em;
+  padding-bottom: .75em;
+  float: none;
+  margin: 1em 0em .5em 0;
+  border-radius: 5px;
+  -moz-columns: 2;
+  -webkit-columns: 2;
+  columns: 2;
+}
+
+/* Info */
+.info h2 {
+  color: #6D6F71;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  margin-top: 1em;
+}
+
+.info h3 {
+  background: url(images/grey-info.gif) no-repeat 0 center;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  padding: 3px 0px 3px 35px;
+  color: #6D6F71;
+  text-transform: none;
+  font-size: 1.1em;
+  border: none;
+}
+
+div.info div.info h3 {
+  background-image: none !important;
+  padding-left: 0;
+}
+
+.info-heading-1 {
+  background: url(images/grey-info.gif) no-repeat 0 center;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  padding: 3px 0px 3px 35px;
+  color: #6D6F71;
+  text-transform: none;
+  font-size: 1em;
+  border: none;
+  margin: 1em 0 0 0;
+}
+
+.info-heading-2 {
+  color: #005ea8;
+  font-family: LPBentonSansBold, Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: normal;
+  margin-bottom: 0em;
+  margin-top: 1em;
+  background: none;
+  padding: 0;
+}
+
+.info-heading-3 {
+  margin: 15px 0px 0px;
+  font-family: LPBentonSansBold, Helvetica,Arial,sans-serif;
+  font-size: 0.9em;
+  color: #005EA8;
+  font-weight: normal;
+  margin-bottom: 0em;
+  margin-top: 1em;
+  background: none;
+  padding: 0;
+}
+
+.practical-tip .info-heading-2 {
+  background: url(images/info.gif) no-repeat 0 -2px;
+  border-bottom: 3px dotted #E42118;
+  padding: 3px 0px 5px 31px;
+  color: #E42118;
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif !important;
+  font-size: .9em;
+  text-transform: uppercase !important;
+  font-weight: normal;
+  margin: 0 0 .6em 0;
+}
+
+/* Local knowledge, Worth a Trip etc boxes */
+h4.special-box-heading {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  line-height: 100%;
+  font-size: .93em;
+  margin: 0 !important;
+  color: #000 !important;
+  border: none !important;
+  padding-bottom: 0;
+}
+
+.review .body-text:first-child {
+  text-indent: 0;
+}
+
+/* Highlights  */
+div.highlights .numbered-list {
+  background: url(images/empty.gif) no-repeat 0 0.5em;
+  padding: 0px;
+}
+
+div.highlights .numbered {
+  color: #139CD8;
+}
+
+div.highlights {
+  background-color: #eee8d7;
+  padding: .8em 1em 1em 1em;
+  border-top: 10px solid #005ea8;
+  margin: 0em 0 1em 0;
+}
+
+div.highlights h2 {
+  text-transform: none;
+  font-family: LPMillerBold, Georgia, serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  color: #00AEEF;
+  margin: 0 0 .3em 0;
+}
+
+/* Arrow lists */
+.info-list-a,
+.box-list-b,
+.numbered-list {
+  background: url(images/arrow-red.gif) no-repeat 0 0.5em;
+  padding-left: 1em;
+}
+
+/* History */
+.history h2 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.3em;
+  color: #000;
+  margin: 1em 0 .2em 0;
+}
+
+.history h3 {
+  color: #000;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif !important;
+  margin: .8em 0 .1em 0;
+}
+
+.history .genre-heading-1 {
+  padding: 0;
+}
+
+/* Genre Headings */
+.genre-heading-1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 1.2em;
+  margin: 1em 0 .1em 0;
+  font-weight: bold;
+  padding: 3px 0 3px 38px;
+}
+
+.genre-heading-2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.sights .genre-heading-1,
+.sights-activities .genre-heading-1 {
+  background: url(images/category-sights.gif) no-repeat 0 center;
+}
+
+.activities .genre-heading-1 {
+  background: url(images/category-activities.gif) no-repeat 0 center;
+  padding-left: 32px;
+}
+
+.courses .genre-heading-1 {
+  background: url(images/category-courses.gif) no-repeat 0 center;
+}
+
+.tours .genre-heading-1 {
+  background: url(images/category-tour.gif) no-repeat 0 center;
+}
+
+.festivals .genre-heading-1,
+.festivals-events .genre-heading-1 {
+  background: url(images/category-festival.gif) no-repeat 0 center;
+}
+
+.sleeping .genre-heading-1 {
+  background: url(images/category-sleep.gif) no-repeat 0 center;
+}
+
+.eating .genre-heading-1 {
+  background: url(images/category-eat.gif) no-repeat 0 center;
+}
+
+.drinking .genre-heading-1 {
+  background: url(images/category-drink.gif) no-repeat 0 center;
+  padding-left: 34px;
+}
+
+.shopping .genre-heading-1 {
+  background: url(images/category-shop.gif) no-repeat 0 center;
+}
+
+.entertainment .genre-heading-1 {
+  background: url(images/category-entertain.gif) no-repeat 0 center;
+}
+
+.beaches .genre-heading-1 {
+  background: url(images/category-beach.gif) no-repeat 0 center;
+}
+
+span.name {
+  color: #009FE3;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: .95em;
+  font-weight: bold;
+}
+
+.box span,
+.box-text span,
+.dont-miss span,
+.box-practical-tip span,
+.practical-tip span,
+.off-the-beaten-track span,
+.worth-a-trip span,
+.local-knowledge span {
+  font-size: 1em;
+}
+
+.poi {
+  margin-top: 1em;
+}
+
+.poi-line .name {
+  /*display: block;*/
+  font-size: 100%;
+}
+
+.icon-topchoice {
+  margin-right: .2em;
+  margin-top: -.1em;
+  float: left;
+}
+
+.map-links a {
+  text-decoration: none;
+}
+
+/* Itineraries */
+#one-day,
+#two-days,
+#three-days,
+#one-week {
+  border: none !important;
+  color: #000;
+  text-transform: none;
+  padding: 0;
+  margin: 1em 0 0 0 !important;
+}
+
+/* Walking Tour */
+.walking-tour-landscape,
+.walking-tour {
+  background-color: #EEE8D7;
+  border-radius: 0 0 10px 10px;
+  margin: 1em 0;
+  padding: 1em;
+  page-break-inside: avoid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 8px solid #db2f31;
+}
+
+.heading-tour {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  margin: 0 0 0em 0;
+  color: #000;
+  line-height: normal;
+  text-transform: none;
+  font-weight: bold;
+  border: 0;
+  padding: 0 .2em 35px;
+}
+
+.stat {
+  text-transform: uppercase;
+  font-size: .9em;
+  padding: 1px 0;
+}
+
+span.sub-head {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #005ea8;
+  border: none;
+  padding: 0;
+  margin: 0 0 .6em 0;
+}
+
+.walking-tour .font-icon {
+  float: left;
+  font-size: 1.7em;
+  margin-top: .2em;
+  color: #E42118;
+  display: none;
+}
+
+/* Hide icon for ADE */
+.walking-tour p {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  font-size: .85em;
+}
+
+.walking-tour .numbered {
+  color: #E42118;
+  padding-right: 0.2em !important;
+}
+
+/* 'Around' */
+.around h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+.around .genre h3 {
+  color: #000000;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  padding-left: 38px;
+  padding-top: 5px;
+  border: none;
+}
+
+.poi-subheading {
+  margin-top: .5em;
+  font-style: italic;
+  display: inline-block;
+  color: #139CD8;
+}
+
+.map-other,
+.metro-map {
+  margin: 15px 0;
+}
+
+/* Boxed text */
+.dont-miss,
+.box-practical-tip,
+.practical-tip,
+.two-column-practical-tip,
+.off-the-beaten-track,
+.worth-a-trip,
+.local-knowledge {
+  background-color: #EEE8D7;
+  border-radius: 10px;
+  margin: 1em 0;
+  padding: 1em;
+  page-break-inside: avoid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dont-miss h4,
+.box-practical-tip h4,
+.two-column-practical-tip h4,
+.practical-tip h4,
+.off-the-beaten-track h4,
+.worth-a-trip h4,
+.local-knowledge h4 {
+  border-bottom: 3px dotted #db2f31;
+  color: #db2f31;
+  font-family: LPBentonSansBold,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.3em 0;
+  text-transform: uppercase;
+  border-top: none !important;
+}
+
+h4.special-box-heading {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  line-height: 100%;
+  font-size: .93em;
+  margin: 0;
+  padding: 0;
+}
+
+div.box-text h3,
+div.dont-miss h3,
+div.box-practical-tip h3,
+div.practical-tip h3,
+div.two-column-practical-tip h3,
+div.off-the-beaten-track h3,
+div.worth-a-trip h3,
+div.local-knowledge h3 {
+  border-bottom: 3px dotted #db2f31;
+  color: #db2f31 !important;
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif !important;
+  font-size: 0.95em !important;
+  font-weight: normal !important;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.3em !important;
+  padding-top: 0 !important;
+  text-transform: uppercase !important;
+  border-top: none !important;
+  line-height: 120%;
+  background-image: none;
+  padding: 0;
+}
+
+div.dont-miss div h4,
+div.box-practical-tip div h4,
+div.two-column-practical-tip div h4,
+div.practical-tip div h4,
+div.off-the-beaten-track div h4,
+div.worth-a-trip div h4,
+div.local-knowledge div h4 {
+  border: none;
+  padding: 0 !important;
+  margin: 1em 0 0 0;
+  text-transform: none;
+}
+
+div.dont-miss p,
+div.box-practical-tip p,
+div.practical-tip p,
+div.two-column-practical-tip p,
+div.off-the-beaten-track p,
+div.worth-a-trip p,
+div.local-knowledge p {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif !important;
+  font-size: .85em;
+  line-height: 135%;
+  color: #000;
+  text-transform: none !important;
+}
+
+.info span.name {
+  color: #000;
+}
+
+.intro-box-large span.name,
+.intro-box-small span.name,
+.box span.name,
+.dont-miss span.name,
+.box-practical-tip span.name,
+.practical-tip span.name,
+.two-column-practical-tip span.name,
+.off-the-beaten-track span.name,
+.worth-a-trip span.name,
+.local-knowledge span.name,
+.dont-miss span.name {
+  color: #db2f31;
+  font-size: 1em;
+}
+
+.dont-miss strong,
+.box-practical-tip strong,
+.practical-tip strong,
+.off-the-beaten-track strong,
+.worth-a-trip strong,
+.local-knowledge strong {
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/*end box text */
+.stats p,
+p.stats {
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  font-size: .8em;
+  margin-bottom: .2em;
+}
+
+.price-indicator {
+  font-weight: bold;
+  color: #333;
+  padding-left: 2em;
+}
+
+/* Survive */
+.genre-survive h2 {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.4em;
+  margin: .8em 0 .4em 0;
+  text-transform: uppercase;
+}
+
+.genre-survive h3 {
+  font-family: LPMillerBold, Georgia, serif;
+  border-top: 8px solid #E42118;
+  color: #666;
+  font-size: 1.3em;
+  margin: 1em 0 0.3em;
+  padding-top: 0.3em;
+}
+
+.neighbourhoods-at-a-glance h2 {
+  color: black;
+}
+.neighbourhoods-at-a-glance h6 {
+  border-top: 8px solid #EBE2C7;
+  margin: 1em 0 .5em;
+  padding-top: .5em;
+}
+.neighbourhoods-at-a-glance h6 a, .neighbourhoods-at-a-glance h6 span {
+  padding-left: .3em;
+}
+
+.top-sights .top-sights-special-heading {
+  background-color: #169DEB;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: normal;
+  margin-bottom: 15px;
+  margin-top: 1px;
+  padding: 8px 8px 5px 8px;
+}
+.top-sights .top-sights-special-heading img {
+  float: left;
+  margin: 0 5px;
+}
+.top-sights .top-sights-special-heading .top-sights-heading {
+  display: inline-block;
+  padding: 3px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.top-sights .top-sights-special-heading .top-sights-heading span.prefix {
+  font-weight: normal;
+}
+.top-sights h3 {
+  border-top: none;
+  font-size: 1.2em;
+}
+.top-sights .sidebar {
+  font-size: .9em;
+  padding: 15px;
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+}
+.top-sights .sidebar .box-heading-1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.top-sights .sidebar div {
+  border-top: 3px dotted #E8181C;
+  padding: 15px 0;
+}
+.top-sights .sidebar div.first {
+  border-top: none;
+}
+.top-sights .sidebar-box .box-heading-1 {
+  margin: 5px 0;
+  text-transform: uppercase;
+  border-bottom: 3px dotted #E8181C;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-weight: bold;
+}
+
+.themed-feature h2 {
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif;
+  color: #998740;
+}
+.themed-feature span.name {
+  color: black;
+}
+.themed-feature .box-intro {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  background-color: #998740;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.themed-feature h3 {
+  font-family: LPBentonSansCondBold, Helvetica, Arial, sans-serif !important;
+  border-top: 3px dotted #998740;
+  color: #1DAFED;
+  text-transform: uppercase;
+}
+.themed-feature h4 {
+  font-family: LPMillerBold, Georgia, serif;
+  font-weight: 400;
+  color: #998740;
+  border: none;
+}
+.themed-feature h4 .font-icon {
+  color: #006DB3;
+  font-size: 100%;
+}
+.themed-feature .featured-tour p.flush-left {
+  border-top: 1px dotted #998740;
+}
+.themed-feature .regional-stats {
+  font-size: 0.8em;
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.themed-feature .regional-stats strong {
+  color: #998740;
+  font-weight: 400;
+}
+.themed-feature .box {
+  border: 2px solid #998740;
+  background-color: #F0EAD7;
+}
+.themed-feature .box .box-heading-1 {
+  font-family: LPBentonSansBold;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,125 @@
+/* --------- CRMS ----------- */
+/* Survive TOC */
+.survive .book-section-toc {
+  columns: 2;
+  -webkit-columns: 2;
+}
+
+/* Main content */
+.survive h1 {
+  font-family: LPMillerBold, Georgia, serif;
+  font-size: 3em;
+  font-weight: normal;
+  color: #000;
+  margin-top: 0;
+}
+
+.survive h2 {
+  margin: 1em 0 .2em 0;
+  font-family: Helvetica, Arial sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.survive h3 {
+  font-family: LPMillerBold, Georgia, serif;
+  border-top: 8px solid #E42118;
+  color: #666;
+  font-size: 1.3em;
+  margin: 1em 0 0.3em;
+  padding-top: 0.3em;
+  font-weight: normal;
+}
+
+.survive h4 {
+  margin: 1em 0 0 0;
+  font-family: Helvetica, Arial sans-serif;
+  font-size: 1.1em;
+}
+
+.survive h5 {
+  margin: 1em 0 .2em 0;
+  font-family: Helvetica, Arial sans-serif;
+  font-size: .9em;
+  text-transform: uppercase;
+}
+
+.survive .flush-left,
+.survive .body-text,
+.list-a,
+.list-b {
+  font-family: Helvetica, Arial sans-serif;
+  font-size: .9em;
+}
+
+.list-b {
+  background: url(images/arrow-red.gif) no-repeat 0 0.45em;
+  padding-left: 1em;
+}
+
+.plug {
+  display: inline-block;
+}
+
+.plug .context-eps {
+  width: 150px;
+  float: left;
+  margin-right: 1em;
+}
+
+span.poi {
+  font-weight: normal;
+}
+
+span.name {
+  color: #000;
+}
+
+.poi .name {
+  font-weight: bold;
+}
+
+span.subtype {
+  color: #333333;
+  display: inline-block;
+  float: right;
+  font-family: LPBentonSansCond,Helvetica,Arial,sans-serif;
+  font-size: 0.7em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.survive .body-text .practicalities,
+.survive .list-a .poi,
+.survive .list-b .poi,
+.survive p span {
+  font-size: 100%;
+}
+
+.survive .box-heading-1 {
+  border-top: 2px dotted #E42118;
+  color: #E42118;
+  font-size: .9em;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 1em;
+}
+
+.survive .box-heading-1 {
+  border-bottom: 3px dotted #E8181C;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+  padding-bottom: .3em;
+  text-transform: uppercase;
+  color: #e42118;
+}
+
+.survive table {
+  border-top: 2px dotted #E42118;
+  padding-top: .5em;
+}

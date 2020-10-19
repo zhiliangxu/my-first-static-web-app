@@ -1,0 +1,976 @@
+/* CRMS */
+@font-face {
+  font-family: 'LPMillerBold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPMillerDailyOne-Bold.ttf");
+}
+@font-face {
+  font-family: 'LPBentonSansCond';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPBentonSansCond-Regular.ttf");
+}
+@font-face {
+  font-family: 'LPBentonSansCondBold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPBentonSansCond-Bold.ttf");
+}
+@font-face {
+  font-family: 'LPBentonSansBold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPBentonSans-Bold.ttf");
+}
+@font-face {
+  font-family: 'LPBentonSansRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPBentonSans-Regular.ttf");
+}
+@font-face {
+  font-family: 'LPIcons2012';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPIcons2012.ttf");
+}
+@font-face {
+  font-family: 'LPNumerals2010';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPNumerals2010.ttf");
+}
+@font-face {
+  font-family: 'LPDiscIcons';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LPDiscIcons.ttf");
+}
+@font-face {
+  font-family: 'LPMapIcons2010';
+  font-weight: normal;
+  font-style: normal;
+  src: url("LpMapIcon2010.ttf");
+}
+body {
+  text-align: left;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+p {
+  margin: 0;
+  padding: 2px 0;
+  text-align: left;
+  line-height: 130%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+a span {
+  color: #0077cc;
+}
+
+img {
+  max-width: 100%;
+}
+
+span.normal {
+  font-style: italic;
+  text-transform: none;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.numbered {
+  font-family: LPNumerals2010;
+}
+
+.disc-icons {
+  font-family: LPMapIcons2010;
+}
+
+.body-text, .info-body-text {
+  text-indent: 1em;
+}
+
+.bold,
+.emphasis {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0em;
+  padding: 0;
+}
+
+ol + p, ul + p {
+  margin-top: .6em;
+}
+
+p + ol, p + ul {
+  margin-top: .6em;
+}
+
+.block-quote {
+  margin: 1em 2em .6em 2em;
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: #222;
+}
+
+.bold, .emphasis {
+  font-weight: bold;
+}
+
+.intro-text {
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 140% !important;
+  margin-bottom: .5em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold-italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.braches {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bio, .box-bio {
+  font-style: italic;
+  text-align: right;
+}
+
+.box-block-quote {
+  font-family: Helvetica, Arial, sans-serif;
+  text-indent: 1em;
+  font-size: .9em;
+}
+
+.box-body-text {
+  font-family: Helvetica, Arial, sans-serif;
+  text-indent: 1em;
+}
+
+.emphasis-character {
+  font-weight: bold;
+}
+
+.cross-ref-paragraph {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cross-ref-paragraph img {
+  vertical-align: middle;
+}
+
+.caption-character {
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+  font-size: .9em;
+}
+
+span.language-italic {
+  font-style: italic;
+  padding: 0 10px 0 10px;
+}
+
+span.light {
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+  font-size: .9em;
+}
+
+.break {
+  page-break-after: always;
+}
+
+.bullet_arrow {
+  font-family: LPIcons2012;
+  font-weight: normal;
+  margin-right: .2em;
+  color: #E63323;
+  font-size: 0.7em !important;
+  color: #E63323;
+}
+
+.block {
+  display: block;
+}
+
+.no_float {
+  float: none !important;
+}
+
+.sidebar {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 130%;
+}
+
+.numbered-list {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+span.poi {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: normal;
+  font-size: .9em;
+}
+
+p.intro {
+  margin: 0;
+  padding: 2px 0;
+  text-align: left;
+  margin-bottom: 2em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.intro {
+  padding-top: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.intro-text {
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.introduction-flush-left {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 130%;
+  color: #222;
+}
+
+.break {
+  page-break-after: always;
+}
+
+.map-links a {
+  text-decoration: none;
+}
+
+span.link_map {
+  background-color: #ADA097;
+  border-radius: 5px;
+  color: #FFFFFF !important;
+  display: inline-block;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 0.7em !important;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 0.2em;
+  padding: 2px 4px 1px 4px;
+  /* uneven padding to support ADE */
+  text-indent: 0;
+  text-transform: uppercase;
+}
+
+span.practicalities {
+  font-family: LPBentonSansCond,Helvetica,Arial,sans-serif;
+  font-size: 0.9em;
+  margin-top: 0px;
+}
+
+span.subtype {
+  color: #333333;
+  display: inline-block;
+  font-family: LPBentonSansCond,Helvetica,Arial,sans-serif;
+  font-size: 0.7em !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-left: 1em;
+}
+
+.box-text span.subtype {
+  font-size: 0.8em !important;
+}
+
+/* Inside Cover page */
+.LP-logo {
+  text-align: center;
+}
+
+.inside-cover {
+  page-break-inside: avoid;
+}
+
+.inside-cover .heading-1 {
+  text-align: center;
+  width: 100%;
+  color: #00287b;
+}
+
+.title-map {
+  text-align: center;
+}
+
+.inside-cover p.heading-1 {
+  font-family: LPBentonSansBold, Arial, sans-serif;
+  font-size: 4em;
+  margin: .2em 0 .5em 0;
+  line-height: 120%;
+  color: #013A69;
+}
+
+/* Images */
+.full_page_image,
+.full_page_image_container img {
+  /* ensure images are restricted to the width of their container */
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+div.full_page_image_container {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+div.image_container {
+  margin: 15px 0px;
+}
+
+div.image_container img {
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.image_container.tall {
+  /* To be used on tall and narrow images */
+  height: 93vh !important;
+  page-break-inside: avoid;
+}
+
+.image_container.tall img {
+  height: 100%;
+}
+
+.caption {
+  margin: -7px 0px 10px 0px;
+  text-align: left;
+  font-size: 0.7em;
+  clear: both;
+  padding: 3px 0 4px 0;
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+}
+
+.caption span {
+  text-align: left;
+}
+
+h1 img,
+h3 img,
+h4 img,
+.heading-6 img {
+  vertical-align: middle;
+}
+
+.context-eps {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.running-header {
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-size: 1.1em;
+  color: #E63323;
+  font-weight: normal;
+  padding-top: .2em;
+  border-top: 5px solid #E63323;
+  margin-bottom: 1em;
+}
+
+/* map keys */
+.map-keys {
+  text-align: left;
+  background: #eee8d7;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.map-keys div {
+  padding-top: 1em;
+  text-indent: .5em;
+}
+
+.map-keys .fullWidth {
+  padding: 0 10px;
+}
+
+.map-keys p {
+  font-size: 1em;
+  display: inline-block;
+  color: #000;
+  text-transform: none;
+}
+
+.map-keys p img {
+  padding-right: .3em;
+}
+
+.map-keys p,
+.map-keys div,
+.map-keys a {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.map-keys p.key-head {
+  color: #0066b3;
+  font-family: LPMillerBold, Georgia, serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-indent: 0;
+}
+
+.map-keys .map-keys-poi {
+  padding-top: 2px;
+  font-size: .9em;
+  margin-left: 10px;
+  font-weight: normal;
+  border-bottom: 1px dotted #000;
+}
+
+.map-keys-poi p {
+  text-indent: 0;
+}
+
+.map-keys .map-keys-poi a {
+  color: #0068ad !important;
+  text-decoration: underline !important;
+}
+
+.map-keys .map-keys-poi span.num {
+  color: #139CD8;
+  font-weight: bold;
+  padding-right: 7px;
+}
+
+.map-keys .sights span.num {
+  color: #e63323;
+}
+
+.map-keys .top-sights span.num {
+  color: #e63323;
+}
+
+.map-keys .map-keys-poi span.ref {
+  text-align: right;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: #000;
+  padding-left: 10px;
+}
+
+.map-keys p.top-sights,
+.map-keys p.sights,
+.map-keys p.sleeping,
+.map-keys p.eating,
+.map-keys p.drinking,
+.map-keys p.drinking-nightlife,
+.map-keys p.shopping,
+.map-keys p.entertainment,
+.map-keys p.activities-courses-tours,
+.map-keys p.information,
+.map-keys p.sporting-activities,
+.map-keys p.transport {
+  padding-left: .8em;
+  font-weight: bold;
+  background-position: 0 center;
+}
+
+/* BG images */
+p.top-sights,
+p.sights {
+  background: url(images/key-sights.gif) no-repeat 0 center;
+}
+
+p.activities-courses-tours {
+  background: url(images/key-activity.gif) no-repeat 0 center;
+}
+
+p.sleeping {
+  background: url(images/key-sleep.gif) no-repeat 0 center;
+}
+
+p.eating {
+  background: url(images/key-eat.gif) no-repeat 0 center;
+}
+
+p.drinking,
+p.drinking-nightlife {
+  background: url(images/key-drink.gif) no-repeat 0 center;
+}
+
+p.entertainment {
+  background: url(images/key-entertain.gif) no-repeat 0 center;
+}
+
+p.shopping {
+  background: url(images/key-shop.gif) no-repeat 0 center;
+}
+
+p.transport {
+  background: url(images/key-info.gif) no-repeat 0 center;
+}
+
+.map {
+  margin: 20px 0px 0px 0px;
+}
+
+/* Colors for icon fonts */
+p.top-sights .disc-icons,
+p.sights .disc-icons {
+  color: #E42118;
+}
+
+p.information .disc-icons {
+  color: #666;
+}
+
+/* Tables */
+table {
+  margin: 15px 0;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 2px dotted #473d1f;
+}
+
+thead tr {
+  border-top: 2px dotted #473d1f;
+}
+
+tr {
+  border-top: 2px solid #FFF;
+  vertical-align: top;
+}
+
+td, th {
+  font-size: .9em;
+  padding-right: 10px;
+  color: #000;
+}
+
+th {
+  text-align: left;
+  font-size: .9em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8em;
+}
+
+td {
+  background-color: #EEE8D7;
+  padding: 3px 5px;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8em;
+}
+
+tbody tr:nth-child(2n+1) td {
+  background-color: #fbf9f4;
+}
+
+.table-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .8em;
+}
+
+.table-text img {
+  vertical-align: top;
+  margin-bottom: 4px;
+}
+
+/* required for iBooks */
+.table-heading {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #e42118;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th .table-heading {
+  font-size: .8em;
+}
+
+/* Boxed text */
+.box,
+.box-text {
+  background-color: #EEE8D7;
+  border-radius: 10px;
+  margin: 1em 0;
+  padding: 1em;
+  page-break-inside: avoid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h2,
+.box-text h2 {
+  border-bottom: 3px dotted #db2f31 !important;
+  color: #db2f31;
+  font-family: LPBentonSansBold,Helvetica,Arial,sans-serif !important;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.3em;
+  text-transform: uppercase;
+  border-top: none !important;
+}
+
+div.box h3,
+div.box-text h3 {
+  border-bottom: 3px dotted #db2f31;
+  color: #db2f31 !important;
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif !important;
+  font-size: 0.95em !important;
+  font-weight: normal !important;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.3em !important;
+  padding-top: 0 !important;
+  text-transform: uppercase !important;
+  border-top: none !important;
+  line-height: 120%;
+  background: none;
+  padding: 0;
+}
+
+div.box div h3,
+div.box-text div h3 {
+  border: none;
+  padding: 0 !important;
+  margin: 1em 0 0 0;
+}
+
+div.box p,
+div.box-text p {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif !important;
+  font-size: .85em;
+  line-height: 135%;
+  color: #000;
+}
+
+.box li,
+.box-text li {
+  font-family: LPBentonSansRegular, Helvetica, Arial, sans-serif;
+  font-size: .85em;
+  color: #000;
+}
+
+.box-text .box div h3 {
+  border: none !important;
+  padding: 0 !important;
+  margin: 1em 0 0 0 !important;
+  color: #db2f31;
+}
+
+.box strong,
+.box-text strong {
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* Highlight unresolved links */
+span.unresolved-link {
+  background-color: #faa;
+}
+
+.table-box {
+  margin-top: 1.5em;
+}
+
+.table-box .box-heading-1 {
+  border-bottom: 3px dotted #E8181C;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+  padding-bottom: .3em;
+  text-transform: uppercase;
+  color: #e42118 !important;
+}
+
+.table-box .box-heading-2,
+.box-heading-2 {
+  margin: 15px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #005EA8;
+  font-weight: bold;
+}
+
+span.name {
+  color: #009FE3;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: .95em;
+  font-weight: bold;
+}
+
+.intro-box-large span.name,
+.intro-box-small span.name,
+.box span.name,
+.dont-miss span.name,
+.box-practical-tip span.name,
+.practical-tip span.name,
+.two-column-practical-tip span.name,
+.off-the-beaten-track span.name,
+.worth-a-trip span.name,
+.local-knowledge span.name,
+.dont-miss span.name {
+  color: #db2f31;
+  font-size: 1em;
+}
+
+/* --------- TABLE OF CONTENTS ----------- */
+.book-toc h1 {
+  font-size: 2.2em;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-weight: normal;
+}
+
+.book-toc h2 {
+  font-family: LPBentonSansBold, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-top: .8em;
+  margin-bottom: 2px;
+  padding: .3em .5em .2em .8em;
+  color: #fff;
+  border-radius: 8px;
+  line-height: normal;
+}
+
+#plan-your-trip h2,
+.plan-your-trip-toc h2 {
+  background: #e42118;
+}
+
+#on-the-road h2,
+.on-the-road-toc h2 {
+  background: #005ea8;
+}
+
+#understand h2,
+.understand-toc h2 {
+  background: #52842b;
+}
+
+#survive h2,
+.survive-toc h2 {
+  background: #797a7c;
+}
+
+#special-features-toc h2,
+.special-features-toc h2 {
+  background: #444;
+}
+
+.book-toc h3 {
+  font-size: 1em;
+  margin: 0.8em 0 0 0 !important;
+  line-height: 120%;
+}
+
+.book-toc h3 a {
+  font-family: LPBentonSansCond, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  color: #222 !important;
+  -webkit-text-fill-color: #222;
+  font-weight: normal;
+}
+
+.on-the-road-toc h3 a {
+  font-family: LPBentonSansCondBold, Arial, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.book-toc h4 {
+  font-size: 1em;
+  margin: 8px 0 0 0;
+}
+
+.book-toc h4 a {
+  font-family: LPBentonSansCond, Arial, sans-serif;
+  font-size: 1em;
+  margin-left: 1.2em;
+  font-weight: normal;
+}
+
+.toc-on-the-road-toc h3 {
+  margin-top: 0.8em !important;
+}
+
+.toc-section-items {
+  background: #f9f9f9;
+  padding: .5em 1em;
+  border-radius: 7px;
+}
+
+/* --------- COLOR SECTIONS ----------- */
+.colour {
+  background-color: #eee8d7;
+  padding: 1em;
+}
+
+.colour .heading-1 {
+  color: #e42118;
+  margin-bottom: .1em;
+}
+
+.colour .heading-2 {
+  color: #e42118;
+  font-size: 2em;
+}
+
+.colour .heading-4 {
+  color: #000;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 100%;
+  margin: 1em 0 0em 0;
+}
+
+.colour .context-boxed-text {
+  background-color: #e5dcc1;
+}
+
+.colour .introduction-flush-left {
+  font-size: .95em;
+  color: #333;
+}
+
+.colour .heading-2:first-child {
+  margin-top: 0;
+}
+
+.colour .image_container + .heading-2 {
+  margin-top: .2em;
+}
+
+.colour .introduction-flush-left + .flush-left {
+  margin-top: .3em;
+}
+
+.section-themes-image-gallery .heading-2 {
+  margin-top: 0;
+}
+
+.section-themes-image-gallery .image_container {
+  margin-bottom: 0;
+}
+
+.section-themes-title-page div.image_container,
+.section-themes-short-spread div.image_container,
+.section-themes-single div.image_container {
+  margin: 0 0 .5em 0;
+}
+
+.section-spotters-guide .sidebar-heading {
+  font-family: LPMillerBold,Georgia,Times,serif;
+  font-size: 1.1em;
+  margin: 1em 0 .2em 0;
+}
+
+.section-spotters-guide .sidebar {
+  font-size: 1em;
+  font-family: Times, "Times New Roman", serif;
+}
+
+.section-spotters-guide .image_container {
+  margin-top: .5em;
+}
+
+.section-spotters-guide .heading-2 {
+  margin-top: 0;
+}
+
+.section-itinerary-spread .introduction-flush-left {
+  margin-bottom: 1em;
+}
+
+.colour .context-heading .body-text {
+  color: #005EA8;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 0em;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+.context-itinerary-number {
+  margin: 0;
+}
+
+.context-itinerary-map {
+  margin: 0em 0;
+}
+
+.colour .context-itinerary-number .body-text {
+  color: #E42118;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0 0 0.3em 0;
+  padding: 0;
+  text-indent: 0;
+  line-height: 100%;
+}
+
+/* Cross sell page */
+.promo {
+  text-align: center;
+}
+
+.promo .img-container img {
+  max-width: 90%;
+}
+
+.promo a {
+  text-decoration: none;
+}
+
+.promo .buttons-wrapper img {
+  width: 17% !important;
+}
+
+.promo .kindle .buttons-wrapper img {
+  width: 49% !important;
+}
+
+table thead tr th {
+  text-transform: uppercase;
+  padding: 4px 5px 2px 5px;
+  color: #473d1f;
+}

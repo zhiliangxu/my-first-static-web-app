@@ -1,0 +1,51 @@
+/* --------- CRMS ----------- */
+/* --------- COLOUR SECTIONS ----------- */
+h1 {
+  color: #E63323;
+}
+
+h2 {
+  color: #E63323;
+}
+
+h3 {
+  color: #222;
+}
+
+p.introduction-flush-left {
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 140% !important;
+  margin-bottom: .5em;
+}
+
+li {
+  padding-bottom: 0.5em;
+}
+
+li strong {
+  color: #E63323;
+}
+
+.itinerary-spread strong {
+  color: #E63323;
+}
+
+.itinerary-spread .x-itinerary-numbers {
+  color: black;
+  font-size: .9em;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #005ea8;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.boxed-text, .box {
+  background-color: #E4DCC1;
+}
+
+p {
+  padding-bottom: .5em;
+}

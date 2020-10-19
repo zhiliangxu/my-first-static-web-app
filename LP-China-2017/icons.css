@@ -1,0 +1,52 @@
+/*
+ HIDDEN ICONS FOR ADE - CRMS
+ Please note: This stylesheet is not for all icons, it's only for hidden icons. Whatever is placed
+ in here will be replaced before being output to Mobi because Mobi has a limit on supressed chars
+ using display:none property.
+*/
+.bullet_arrow {
+  font-family: LPIcons2012;
+  font-weight: normal;
+  margin-right: .2em;
+  color: #E63323;
+  font-size: 0.7em !important;
+  display: none;
+  /* hide for ADE devices */
+}
+
+.script {
+  display: none;
+}
+
+.font-icon {
+  font-family: LPIcons2012;
+  font-style: normal;
+  font-weight: normal;
+  display: none;
+}
+
+/* Hidden for ADE devices */
+.font-prac-icon {
+  font-family: LPIcons2012;
+  font-style: normal;
+  font-weight: normal;
+  display: none;
+}
+
+/* Hidden for ADE devices */
+.disc-icons {
+  display: none;
+}
+
+p.top-sights .disc-icons,
+p.sights .disc-icons {
+  display: none;
+}
+
+p.information .disc-icons {
+  display: none;
+}
+
+.best .numbered {
+  display: none;
+}

@@ -1,0 +1,33 @@
+/*
+ *
+ * Promo page styles.
+ *
+ */
+
+.promo {
+  text-align: center;
+  margin: 0;
+}
+
+img.full_page_image {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.buttons-wrapper a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.apple .buttons-wrapper a img,
+.kindle .buttons-wrapper a img {
+  width: 49%;
+}
+
+.buttons-wrapper a img {
+  width: 17%;
+  text-align: center;
+}
+

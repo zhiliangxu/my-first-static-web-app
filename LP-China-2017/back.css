@@ -1,0 +1,149 @@
+/* --------- CRMS ----------- */
+.this-book-box,
+.our-story {
+  background-color: #eee8d7;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.back p {
+  font-family: Helvetica, Arial sans-serif;
+  font-size: .9em;
+  text-indent: 0em;
+}
+
+/* --------- BEHIND THE SCENES ----------- */
+.behind-the-scenes .feedback {
+  border-top: 3px dotted #e42118;
+  border-bottom: 3px dotted #e42118;
+  margin: 1em 0 0.3em;
+  padding: 0.7em 0 0.8em 0;
+}
+
+.behind-the-scenes h1 {
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-size: 2.8em;
+  font-weight: normal;
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+.behind-the-scenes h2 {
+  font-family: Helvetica, Arial sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.behind-the-scenes .feedback h3 {
+  border: none;
+  color: #000;
+  font-family: LPBentonSansBold, Helvetica, Arial, sans-serif !important;
+  font-size: 0.95em !important;
+  font-weight: normal !important;
+  margin: 0 0 0.6em;
+  padding-bottom: 0.3em !important;
+  padding-top: 0 !important;
+  text-transform: uppercase !important;
+  border-top: none !important;
+  line-height: 120%;
+  background: none;
+  padding: 0;
+}
+
+.behind-the-scenes h4 {
+  font-family: Helvetica, Arial sans-serif;
+  margin: 1em 0 .2em 0;
+}
+
+/* --------- OUR WRITERS ----------- */
+.our-story h3 {
+  text-transform: uppercase;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-size: 1.4em;
+  color: #e42118;
+  margin: 0 0 .2em 0;
+}
+
+.writers h1 {
+  text-transform: uppercase;
+  font-family: LPMillerBold, Georgia, Times, serif;
+  font-size: 1.4em;
+  color: #e42118;
+  margin: 0 0 .5em 0;
+  padding-top: 1em;
+  text-align: left;
+}
+
+.writers h6 {
+  font-family: Helvetica, Arial sans-serif;
+  font-size: 1.1em;
+  color: #000;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+span.author-chapters {
+  font-weight: bold;
+}
+
+div.disclaimer {
+  padding-top: 1em;
+}
+
+.image-wheeler {
+  float: left;
+  margin: 0 1em .2em 0;
+}
+
+.offices {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 3px solid #B9AC9D;
+}
+
+.offices a {
+  -webkit-text-fill-color: #000000;
+  color: #000000;
+}
+
+.offices h5 {
+  margin: 5px 0 0;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial sans-serif;
+}
+
+.offices p,
+.offices a {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social .media {
+  margin: 5px 10px 5px 0;
+}
+
+.social .media img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.social .media .link {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.social .media a {
+  -webkit-text-fill-color: #000000;
+  color: #000000;
+}
