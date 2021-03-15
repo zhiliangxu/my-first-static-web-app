@@ -30,6 +30,6 @@
     }
   ],
   "defaultHeaders": {
-    "content-security-policy": "script-src 'self' 'nonce-12345'"
+    "Content-Security-Policy-Report-Only": "script-src 'self' 'nonce-12345'"
   }
 }
