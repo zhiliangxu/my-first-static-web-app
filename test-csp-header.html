@@ -12,16 +12,20 @@
   </main>
 
   <script nonce="12345">
-	  console.log('1st script tag');
+    console.log('1st script tag');
   </script>
   <script nonce="12345">
-	  console.log('2nd script tag');
+    console.log('2nd script tag');
   </script>
   <script nonce="54321">
-	  console.log('3rd script tag');
+    // When Content-Security-Policy is set, expect to see an error in console:
+    // Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' 'nonce-xxx'". Either the 'unsafe-inline' keyword, a hash ('sha256-xxxx'), or a nonce ('nonce-...') is required to enable inline execution.
+    console.log('3rd script tag');
   </script>
   <script>
-	  console.log('4th script tag');
+    // When Content-Security-Policy is set, expect to see an error in console:
+    // Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' 'nonce-xxx'". Either the 'unsafe-inline' keyword, a hash ('sha256-xxxx'), or a nonce ('nonce-...') is required to enable inline execution.
+    console.log('4th script tag');
   </script>
 </body>
 </html>
