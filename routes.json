@@ -28,5 +28,8 @@
       "statusCode": "302",
       "serve": "/login"
     }
-  ]
+  ],
+  "defaultHeaders": {
+    "content-security-policy": "script-src 'self' 'nonce-12345'"
+  }
 }
