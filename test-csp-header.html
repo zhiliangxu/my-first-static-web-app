@@ -27,5 +27,12 @@
     // Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' 'nonce-xxx'". Either the 'unsafe-inline' keyword, a hash ('sha256-xxxx'), or a nonce ('nonce-...') is required to enable inline execution.
     console.log('4th script tag');
   </script>
+  <!-- Run below script in console to hack it.
+var newScript = document.createElement("script");
+newScript.setAttribute('nonce', '12345');
+var inlineScript = document.createTextNode("console.log('I hacked you.');");
+newScript.appendChild(inlineScript); 
+document.body.appendChild(newScript);
+-->
 </body>
 </html>
