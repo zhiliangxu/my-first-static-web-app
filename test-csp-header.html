@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Content-Security-Policy Headewr</title>
+</head>
+
+<body>
+  <main>
+    <h1>Test Content-Security-Policy Header</h1>
+  </main>
+
+  <script nonce="12345">
+	  console.log('1st script tag');
+  </script>
+  <script nonce="12345">
+	  console.log('2nd script tag');
+  </script>
+  <script nonce="54321">
+	  console.log('3rd script tag');
+  </script>
+  <script>
+	  console.log('4th script tag');
+  </script>
+</body>
+</html>
