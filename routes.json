@@ -30,6 +30,6 @@
     }
   ],
   "defaultHeaders": {
-    "Content-Security-Policy-Report-Only": "script-src 'self' 'nonce-12345' 'sha256-1fPOt+dYqFLBDGt7LFJjlntMqtc4XpXzn3qYhmHUTEs='"
+    "Content-Security-Policy-Report-Only": "script-src 'self' 'nonce-12345' 'sha256-PZOVKx4NAKtDZgq3LFkRRgqJoGNCXcmxYcGrVIIR4d8='"
   }
 }
